@@ -1,0 +1,26 @@
+line-length = 88
+indent-width = 4
+target-version = "py313"
+
+[lint]
+select = [
+    "E",
+    "F",
+    "W",
+    "I",
+    "N",
+]
+ignore = [
+    "E203",
+]
+
+[mccabe]
+max-complexity = 10
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+
+[tool.ruff]
+fix = true
